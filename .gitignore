@@ -5,6 +5,7 @@
 htmlcov
 .coverage
 logs
+debug.py
 
 # files/**
 # !files/**/

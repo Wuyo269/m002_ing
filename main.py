@@ -8,7 +8,8 @@ import json
 
 import pandas as pd
 
-# from config.log_config import logging_setup
+
+from log_config.logging_config import setup_root_logger
 from utils.data_handling import (
     transform_data,
     categorise_contractor,
@@ -22,7 +23,6 @@ from utils.file_handling import (
     verify_csv_file,
     InvalidCSVFileError,
 )
-from log_config.logging_config import setup_root_logger
 from config import (
     TASK_NAME,
     LOGS_FOLDER,
@@ -32,15 +32,6 @@ from config import (
     UNCATEGORISED,
     OUTPUT_FOLDER,
 )
-
-# TASK_NAME = "Task_ING_summary"
-# LOGS_FOLDER = "logs"
-# FILES_FOLDER = "files"
-
-# CATEGORIES_MAPPING = os.path.join(FILES_FOLDER, "category_mapping.json")
-# FIELD_MAPPING = os.path.join(FILES_FOLDER, "field_mapping.json")
-# UNCATEGORISED = os.path.join(FILES_FOLDER, "uncategorised")
-# OUTPUT_FOLDER = os.path.join(FILES_FOLDER, "output")
 
 
 def process_transaction_file(file_path, logger: logging.Logger) -> None:
