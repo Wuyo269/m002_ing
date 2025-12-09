@@ -1,1 +1,0 @@
-Zrob uplaod na git i popracuj nad git ignore 
