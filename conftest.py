@@ -1,3 +1,8 @@
+"""
+Ensure repository root is on sys.path so tests can import local packages
+Used to run pytest
+"""
+
 import os
 import sys
 
