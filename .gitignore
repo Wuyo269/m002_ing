@@ -8,7 +8,10 @@ htmlcov
 .coverage
 logs
 debug.py
-files/*
+files/* 
+!files/input/
+files/input/**
+!files/input/.gitkeep
 !files/output/
 !files/uncategorised/
 !files/*.json
