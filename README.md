@@ -1,6 +1,7 @@
-# m002_ing
+# W005_ING
 
 ## Description
+Portfolio project
 Application categorises banking transactions based on provided mapping.
 
 
