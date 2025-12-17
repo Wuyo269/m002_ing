@@ -2,6 +2,7 @@
 
 ## Description
 Portfolio project
+
 Application categorises banking transactions based on provided mapping.
 
 
